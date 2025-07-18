@@ -1,13 +1,13 @@
 1: Setup & Fundamentals
 
-	Sent Command: AT
-	Response: OK
-	Checks if the modem is responsive. A response of 'OK' means the emulator or modem is working correctly and ready to accept further commands.
+Sent Command: AT
+Response: OK
+Checks if the modem is responsive. A response of 'OK' means the emulator or modem is working correctly and ready to accept further commands.
 
-        Sent Command: ATI
-	Response: C102
-	Asks the modem to identify itself. The emulator responds with 'C102', which is the simulated modem's identifier. In real modems, this might return manufacturer or model info.
+Sent Command: ATI
+Response: C102
+Asks the modem to identify itself. The emulator responds with 'C102', which is the simulated modem's identifier. In real modems, this might return manufacturer or model info.
 
-	Sent Command: ATZ
-	Response: OK
-	Resets the modem to its default configuration. Clear previous configurations or errors and return to a known state.
+Sent Command: ATZ
+Response: OK
+Resets the modem to its default configuration. Clear previous configurations or errors and return to a known state.
