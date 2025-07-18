@@ -4,7 +4,7 @@
 	Response: OK
 	Checks if the modem is responsive. A response of 'OK' means the emulator or modem is working correctly and ready to accept further commands.
 
- Sent Command: ATI
+        Sent Command: ATI
 	Response: C102
 	Asks the modem to identify itself. The emulator responds with 'C102', which is the simulated modem's identifier. In real modems, this might return manufacturer or model info.
 
